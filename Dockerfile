@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:10.15.3-alpine
 
 RUN set -x && \
     apk --update add --no-cache \
